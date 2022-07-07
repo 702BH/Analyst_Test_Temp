@@ -1,0 +1,48 @@
+---
+title: "Part 2 A/B Test Answer"
+author: "Billy Houseman"
+date: '2022-07-07'
+output: html_document
+---
+<style>
+body {
+text-align: justify;
+font-size: 14pt;
+}
+</style>
+---
+
+# A/B Test Question Answer
+
+## Metrics
+The goal of the proposed A/B test is to measure the impact of displaying a new loading screen to players, this new loading screen will display the "new features" to the players while they wait. In particular, we are interested in the financial impacts of this new change.
+
+The experimental units of this test will be users. Some potentially useful Key Performance Indicators (KPIs) to measure this impact could be:
+
+* **Average Revenue per User (ARPU)** for the trial period - which loading behaviour generated more revenue per user?
+* **Bounce Rate** - The bounce rate refers to how many users visited without performing actions. By displaying new, enticing information do we encourage these users to interact?
+* **Average First Deposit Value** - In displaying these new features, do we entice players to deposit more?
+* **Average First Bet Value** - Do players place larger bets after seeing these features?
+* **Bets-to-deposits** - Only measuring deposits does not directly measure monetary gain. By displaying these new features are users betting more?
+* **Retention Rate (D1, D3, D7, D30)** - Are we enticing players to return to the game? This can be considered a quantitative measure of player engagement and enjoyment
+
+<br>
+<br>
+
+Although all of these metrics could be useful, given the context of the A/B test, we are showing new enticing features during the loading screen of the game, therefore, it would be most beneficial to measure and track the users activities directly after seeing this loading screen. I beleive the most useful metrics would be:
+
+* **Average Revenue per User (ARPU)** for the trial period - This will give a high level indication of whether or not showing these new features enticed players to bet more.
+* **Bounce Rate** - By measuring the bounce rate between the two groups, we can identify if showing the features earlier entices users to play who would have otherwised bounced, thus suggesting higher engagement.
+* **Average First Deposit Value** - Measuring the average first deposit value per user for the two groups will give an indication as to whether the new behaviour directly encouraged users to deposit more after seeing it.
+* **Average First Bet Value** - Again, similar to the deposits, directly after seeing the new loading screen, are we enticing players to bet more on their first bet. 
+
+<br>
+<br>
+
+## Hypothesis
+In general terms, the hypothesis states that by introducing the new loading screen we are encouraing users to deposit more money and place larger bets directly after seeing the new enticing features. 
+
+The **Null Hypothesis** states: Users who visit the game with the new loading screen will not have larger first deposits and bets, will not have a decreased bounce rate and will not have a higher average revenue.
+
+The **Alternative Hypothesis** states: Users who visit the game with the new loading screen will have larger first deposits and bets, will have a decreased bounce rate and will have a higher average revenue.
+
